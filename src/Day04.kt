@@ -92,7 +92,7 @@ fun main() {
 
     val testInput = readInput("Day04_test")
     part1(testInput).let {
-//        check(it == 18) { it }
+        check(it == 18) { it }
     }
     val testInput2 = readInput("Day04_test")
     part2(testInput2).let {
